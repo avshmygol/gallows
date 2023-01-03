@@ -15,6 +15,7 @@ system("clear") || system("cls")
 
 # 2. Поздороваться
 puts "Всем привет! Это игра \"Виселица\""
+puts
 
 # 3. Загрузить случайное слово из файла
 word = File.readlines(__dir__ + '/data/words.txt', encoding: 'UTF-8', chomp: true).sample
